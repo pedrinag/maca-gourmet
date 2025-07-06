@@ -100,7 +100,7 @@ const ContentSection = () => {
         {/* Recipe Carousel */}
         <div className="mb-16">
           <div className="max-w-3xl mx-auto">
-            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg">
+            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg min-h-[350px] md:min-h-[420px] flex flex-col justify-between">
               <img 
                 src={recipes[currentSlide].image}
                 alt={recipes[currentSlide].title}
