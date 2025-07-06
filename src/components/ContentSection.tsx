@@ -102,7 +102,7 @@ const ContentSection = () => {
           <div className="max-w-3xl mx-auto">
             <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg h-[420px] md:h-[500px] flex flex-col justify-center items-center overflow-hidden">
               <div className="w-full flex justify-center items-center mb-4">
-                <div className="w-[220px] h-[165px] bg-white rounded-xl overflow-hidden flex items-center justify-center">
+                <div className="w-full max-w-md md:max-w-lg aspect-[4/3] bg-white rounded-xl overflow-hidden flex items-center justify-center">
                   <img 
                     src={recipes[currentSlide].image}
                     alt={recipes[currentSlide].title}
