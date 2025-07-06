@@ -104,12 +104,12 @@ const ContentSection = () => {
               <img 
                 src={recipes[currentSlide].image}
                 alt={recipes[currentSlide].title}
-                className="w-full h-56 md:h-72 object-cover rounded-xl mb-4 mx-auto"
+                className="w-full h-40 md:h-60 object-cover rounded-xl mb-4 mx-auto"
               />
-              <h3 className="text-2xl md:text-3xl font-black mb-4">
+              <h3 className="text-2xl md:text-3xl font-black mb-2 min-h-[32px] md:min-h-[40px] flex items-center justify-center">
                 {recipes[currentSlide].title}
               </h3>
-              <p className="text-lg text-[#FFD700] font-bold">
+              <p className="text-lg text-[#FFD700] font-bold min-h-[40px] md:min-h-[48px] flex items-center justify-center">
                 {recipes[currentSlide].subtitle}
               </p>
               
