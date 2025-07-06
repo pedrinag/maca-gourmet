@@ -100,16 +100,16 @@ const ContentSection = () => {
         {/* Recipe Carousel */}
         <div className="mb-16">
           <div className="max-w-3xl mx-auto">
-            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg min-h-[350px] md:min-h-[420px] flex flex-col justify-between">
+            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg h-[420px] md:h-[500px] flex flex-col justify-center items-center overflow-hidden">
               <img 
                 src={recipes[currentSlide].image}
                 alt={recipes[currentSlide].title}
-                className="w-full h-40 md:h-60 object-cover rounded-xl mb-4 mx-auto"
+                className="w-full h-56 md:h-72 object-cover rounded-xl mb-4 mx-auto"
               />
-              <h3 className="text-2xl md:text-3xl font-black mb-2 min-h-[32px] md:min-h-[40px] flex items-center justify-center">
+              <h3 className="text-2xl md:text-3xl font-black mb-4">
                 {recipes[currentSlide].title}
               </h3>
-              <p className="text-lg text-[#FFD700] font-bold min-h-[40px] md:min-h-[48px] flex items-center justify-center">
+              <p className="text-lg text-[#FFD700] font-bold">
                 {recipes[currentSlide].subtitle}
               </p>
               
