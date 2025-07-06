@@ -100,25 +100,21 @@ const ContentSection = () => {
         {/* Recipe Carousel */}
         <div className="mb-16">
           <div className="max-w-3xl mx-auto">
-            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg h-[420px] md:h-[500px] flex flex-col justify-center items-center overflow-hidden">
-              <div className="w-full flex justify-center items-center mb-4">
-                <div className="w-full max-w-md md:max-w-lg aspect-[4/3] bg-white rounded-xl overflow-hidden flex items-center justify-center">
-                  <img 
-                    src={recipes[currentSlide].image}
-                    alt={recipes[currentSlide].title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <h3 className="text-2xl md:text-3xl font-black mb-2">
+            <div className="bg-[#E31837] rounded-2xl p-8 text-white text-center shadow-lg h-[480px] md:h-[540px] flex flex-col justify-center items-center overflow-hidden">
+              <img 
+                src={recipes[currentSlide].image}
+                alt={recipes[currentSlide].title}
+                className="w-full h-56 md:h-72 object-cover rounded-xl mb-4 mx-auto"
+              />
+              <h3 className="text-2xl md:text-3xl font-black mb-4">
                 {recipes[currentSlide].title}
               </h3>
-              <p className="text-lg text-[#FFD700] font-bold mb-2">
+              <p className="text-lg text-[#FFD700] font-bold">
                 {recipes[currentSlide].subtitle}
               </p>
               
               {/* Progress Indicators */}
-              <div className="flex justify-center mt-2 gap-2">
+              <div className="flex justify-center mt-6 gap-2">
                 {recipes.map((_, index) => (
                   <button
                     key={index}
