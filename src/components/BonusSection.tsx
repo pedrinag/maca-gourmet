@@ -136,7 +136,7 @@ const BonusSection = () => {
               <div className="text-base font-bold text-white mb-1 uppercase">pagamento único</div>
             </div>
             {/* Botão */}
-            <a href="https://google.com" target="_blank" rel="noopener noreferrer" role="button" className="bg-gradient-to-r from-[#6A0DAD] to-[#6A0DAD] hover:from-[#6A0DAD]/90 hover:to-[#6A0DAD] text-white font-black text-lg md:text-2xl py-4 px-2 md:px-12 rounded-2xl shadow-2xl shadow-[#6A0DAD]/40 transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center mx-auto w-full max-w-lg animate-pulse-slow text-center leading-tight mb-4">
+            <a href="https://maca-gourmet.pay.yampi.com.br/r/4YZR67H8A8" target="_blank" rel="noopener noreferrer" role="button" className="bg-gradient-to-r from-[#6A0DAD] to-[#6A0DAD] hover:from-[#6A0DAD]/90 hover:to-[#6A0DAD] text-white font-black text-lg md:text-2xl py-4 px-2 md:px-12 rounded-2xl shadow-2xl shadow-[#6A0DAD]/40 transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center mx-auto w-full max-w-lg animate-pulse-slow text-center leading-tight mb-4">
               <span className="block w-full text-lg md:text-2xl leading-tight">SIM! EU QUERO O GUIA MAÇÃS GOURMET</span>
             </a>
             {/* Frases de urgência */}
